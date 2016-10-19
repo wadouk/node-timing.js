@@ -73,6 +73,16 @@ Firefox:
 }
 ```
 
+## Event model
+
+![Navigation Processing Model & node-timing.js variables](https://cdn.rawgit.com/wadouk/node-timing.js/master/navigation-processing-model.svg)
+
+Ref : 
+ * [Navigation Timing Level 2, Processing Model](https://www.w3.org/TR/navigation-timing-2/#processing-model)
+ * Step 24 of [Processing Model](https://www.w3.org/TR/navigation-timing-2/#processing-model)
+ * [event DOMContentLoaded](https://developer.mozilla.org/fr/docs/Web/Events/DOMContentLoaded)
+ * [event load](https://developer.mozilla.org/fr/docs/Web/Events/load)
+
 ## Build
 
 Run `npm install` to install necessary dependencies for building the library. Check that `npm run jshint` doesn't throw any exceptions.
